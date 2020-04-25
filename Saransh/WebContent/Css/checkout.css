@@ -1,0 +1,205 @@
+.head h6{
+	display: flex;
+	width: 180px;
+	font-size: 35px;
+	color: grey;
+	font-family: cursive;
+	left: 10%;
+	margin-top: 5%;
+	border-bottom: 1px solid grey;
+	margin-left: 10%;
+}
+
+table{
+	height:200px;
+	width:500px;
+	margin-top:20px;
+}
+
+table tr,th,td{
+	
+	text-align:center;
+	border-bottom:1px solid grey;
+	padding:20px;
+	
+	
+	
+}
+
+.address input[type=text]{
+	
+	color:black;
+}
+
+
+.box2 h3{
+	color: black;
+	font-family:arial;
+	padding:0;
+	display:block;
+	margin-left:7%;
+	word-spacing:50px;
+	font-size:20px;
+	
+	 text-align:left;
+	margin-top:10%;
+}
+
+ol li{
+	color: black;
+	font-family:arial;
+	padding:0;
+	word-spacing:85px;
+	list-style:none;
+	 text-align:left;
+	margin-top:10%;
+}
+
+.box{
+	
+	padding-left: 8%;
+	margin-top: 5%;
+	
+}
+.box1{
+	height: 600px;
+	width:40%;
+	float: left;
+	
+}
+
+.vertical{
+	height: 550px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 4%;
+	border-left: 1px solid grey;
+}
+.vertical p{
+	opacity: 0;
+}
+
+.box2{
+	height: 600px;
+	float: left;
+	width: 40%;
+	
+}
+.all h5{
+	
+	color: black;
+	font-family: poppins;
+	padding: 0;
+	font-weight: 300;
+	display: table;
+	margin: 0;
+	
+	
+}
+
+.box1 h1{
+		color: black;
+	font-size: 40px;
+	font-weight: 200;
+	font-family:'';
+	
+}
+
+
+.box2 h1{
+	
+	color: black;
+	font-size: 40px;
+	font-weight: 200;
+	font-family:'';
+	
+}
+.all h6{
+	
+	color: black;
+	font-family: poppins;
+	padding: 0;
+	font-weight: 300;
+	display: table;
+	margin: 0;
+	font-size: 20px;
+	margin-left: 50%;
+	margin-bottom: 10px;
+	
+}
+
+.all{
+	margin-top: 25%;
+	margin-left: 40%;
+}
+
+
+.box1 form{
+	padding: 30px;
+	
+}
+
+input{
+	margin: 0;
+	margin-bottom: 20px;
+	
+}
+
+label{
+	color: black;
+	
+}
+
+.logout input{
+	position:absolute;
+	left:53%;
+	top:28%;
+	background:white;
+	transform: translate(-50%,-50%);
+	border:1px solid black;
+	border-radius:0px;
+	color:black;
+	width:8%;
+	height:5%;
+	display:flex;
+	padding:0;
+}
+
+.logout input:hover{
+	position:absolute;
+	left:53%;
+	top:28%;
+	background:grey;
+	
+	border-radius:0px;
+	transform: translate(-50%,-50%);
+	color:white;
+	width:8%;
+	height:5%;
+	display:flex;
+	padding:0;
+}
+
+.sub{
+	margin-top:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

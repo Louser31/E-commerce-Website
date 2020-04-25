@@ -1,0 +1,139 @@
+
+<html>
+
+<head>
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="Css/Style.css">
+
+<style>
+body {
+	background-image: url(Images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+</style>
+</head>
+
+<body>
+	<div class="sar">
+		<h1>Astarag</h1>
+		<div class="Nav-area">
+			<ul class="nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="shop.jsp">Shop</a></li>
+				<li><a href="#portfolio">About</a></li>
+				<li><a href="welcome.jsp">Checkout</a></li>
+				<li><a href="contact.html">contact </a></li>
+			</ul>
+		</div>
+		<div class="slide-show">
+			<img class="mySlides" src="Images/s1.jpg"> <img
+				class="mySlides" src="Images/s2.jpg"> <img class="mySlides"
+				src="Images/s4.jpg"> <img class="mySlides" src="Images/s5.jpg">
+			<img class="mySlides" src=Images/s6.jpg>
+		</div>
+		<h1 class="product">Our Products</h1>
+		<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Commodi, perspiciatis!</h6>
+		<h5>
+			<a href=shop.jsp>View All Products</a>
+		</h5>
+		<br> <br> <br>
+		<div class="team">
+			<div class="single">
+				<img src="Images/c1%20(4).jpg">
+				<div class="team-text">
+					<h2>Hand Made</h2>
+					<p>Shop for Handcrafted Shoes online at Astarag. Checkout
+						latest selection of Handcrafted Shoes such as handmade chappals,
+						handmade leather chappals,etc</p>
+					<p>
+						<a href="shop.jsp"><i><p class="ani">Shop</p> </i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="single">
+				<img src="Images/c1%20(5).jpg">
+				<div class="team-text">
+					<h2>Boots</h2>
+					<p>Shop Boots for men, women and kids from Timberland, Clarks,
+						Catwalk, Bata, Knotty ... Shop for canvas, mesh, suede, leather
+						and more types of Boots only at Astarag</p>
+					<p>
+						<a href="shop.jsp"><i><p class="ani">Shop</p> </i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="single">
+				<img src="Images/c1%20(6).jpg">
+				<div class="team-text">
+					<h2>Sneakers</h2>
+					<p>Sneakers for Men and Women. Shop for sneakers shoes in India
+						through Astarag ✯ Buy sneakers shoes from wide range of sneakers
+						shoes from top brands</p>
+					<p>
+						<a href="shop.jsp"><i><p class="ani">Shop</p> </i></a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br> <br> <br> <br> <br>
+		<br>
+	</div>
+	<div class="trans">
+		<h3>Welcome</h3>
+		<br>
+		<h4>
+			Shoes for<br> Everyone
+		</h4>
+	</div>
+	<div class="sar">
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br>
+
+		<div class="footer">
+			<ul class="ss">
+
+				<li><a href="#"> <img
+						src="Images/iconfinder_Facebook_194929.png">
+				</a></li>
+
+				<li><a href="#"> <img
+						src="Images/iconfinder_Intsagram_194923.png">
+				</a></li>
+
+				<li><a href="#"><img
+						src="Images/iconfinder_Twitter_194909.png"> </a></li>
+			</ul>
+
+			<br> <span>&copy; 2020 All Right Reserved &nbsp; | &nbsp;
+				Made With <img src="Images/icons8-heart-64.png"> For You
+			</span>
+		</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) {
+					myIndex = 1
+				}
+				x[myIndex - 1].style.display = "block";
+				setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		</script>
+	</div>
+</body>
+</html>

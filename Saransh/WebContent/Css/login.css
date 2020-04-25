@@ -1,0 +1,159 @@
+*{
+margin: 0;
+	padding: 0;
+	
+	
+}
+body{
+	
+	background: url(Images/bg.jpg);
+	font-family: poppins;
+	background-size: cover;
+	
+}
+.user{
+	position: absolute;
+	border: 3px solid;
+	border-radius: 50%;
+	width: 80px;
+	background: white;
+	left:50%;
+	transform: translate(-50%,-50%);	
+	z-index: 100;
+}
+
+h1{
+	color: rgba(172, 172, 172);
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	
+}
+h5{
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+	
+	color: rgba(172, 172, 172);
+}
+
+
+h5 a{
+	
+	text-decoration: none;
+	
+	color: rgba(172, 172, 172);
+}
+
+h5 a:hover{
+	
+	
+	color:grey;
+	
+}
+
+.sign-up a{
+	
+	text-decoration: none;
+	color:rgb(255, 144, 144);
+	font-family: arial;
+	font-weight: 600;
+	font-size: 15px;
+	
+	
+	
+}
+
+.sign-up a:hover{
+	
+	color:#ff4646;
+	
+	
+	
+}
+
+
+
+
+
+
+.q{
+	
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	height: 620px;
+	width: 400px;
+	background: rgba(98, 98, 98, 0.58);
+	box-shadow: 10px 20px 10px;
+	
+	
+}
+
+input[type=submit]{
+	
+	background: rgb(134, 134, 255);
+	width:50%;
+	display: flex;
+	justify-content: center;
+	margin-left: 50%;
+	transform: translate(-50%,30%);
+	color: rgb(235, 233, 233);
+	
+}
+input[type=submit]:hover{
+	
+	background: rgb(86, 86, 255);
+	color: #fff;
+	
+}
+
+
+form{
+	padding: 45px;
+	
+}
+
+input{
+	
+	width: 100%;
+	padding: 12px;
+	border: none;
+	margin-top: 10px;
+	border-radius: 50px;
+	
+	
+}
+::placeholder{
+	
+color:rgba(0, 0, 0, 0.46);
+	font-family: arial;
+	font-family:cursive;
+	padding: 2%;
+
+	
+}
+
+
+hr{
+	margin:30px;
+	color: red;
+	display: block;
+	border: 0.5px solid rgba(128, 128, 128, 0.26);
+	
+	
+}
+
+#overlap{
+	height: 100%;
+	width:100%;
+	background: rgba(0, 0, 0, 0.64);
+}
+
+
+
+
+
+
+
